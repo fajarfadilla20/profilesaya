@@ -1,0 +1,89 @@
+nav ul {
+    background: #183D3D;
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-family: 'helvetica', arial;
+}
+
+nav ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background-color: #5C8374;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul ul {
+    display: none;
+    background: #111;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    max-width: 300px;
+    width: auto;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px 40px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    background: #93B1A6;
+}
+
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 200px;
+}
+
+body {
+    background-color: #93B1A6;
+}
+
+h1 {
+    color: #040D12;
+}
+
+table {
+    background-color: #5C8374;
+}
+
+hr {
+    background-color: #93B1A6;
+}
+
+footer {
+    background-color: #040D12;
+    color: #93B1A6;
+}
+
+table thead tr th {
+    background-color: #040D12;
+    color: #fff;
+}
+
+tableregister {
+    align-items: left;
+}
